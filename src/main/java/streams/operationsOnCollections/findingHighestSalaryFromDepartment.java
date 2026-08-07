@@ -1,4 +1,4 @@
-package streams;
+package streams.operationsOnCollections;
 
 import java.util.Comparator;
 import java.util.List;
@@ -31,9 +31,7 @@ public class findingHighestSalaryFromDepartment {
     public String toString() {
         return id + " " + department + " " + salary;
     }
-}
 
-class mainMethod {
     public static void main(String[] args) {
         List<findingHighestSalaryFromDepartment> list = List.of(
                 new findingHighestSalaryFromDepartment(1, "IT", 20000),
@@ -42,6 +40,8 @@ class mainMethod {
                 new findingHighestSalaryFromDepartment(4, "Electrical", 20000),
                 new findingHighestSalaryFromDepartment(5, "Mechanical", 40000)
         );
+
+        // Department wise Highest salaries
 
         list.stream()
                 .collect(Collectors.groupingBy(
@@ -52,10 +52,14 @@ class mainMethod {
                 .forEach((dept, emp) -> System.out.println(dept + "-> " + emp.get().getSalary()));
 
 
+        // Only particular department with Highest salary
+
         list.stream()
                 .filter(emp -> emp.getDepartment().equals("IT"))
                 .max(Comparator.comparing(findingHighestSalaryFromDepartment::getSalary))
                 .ifPresent(System.out::println);
+
+        // Highest salary printing from the particular department
 
         list.stream()
                 .filter(emp -> emp.getDepartment().equals("IT"))

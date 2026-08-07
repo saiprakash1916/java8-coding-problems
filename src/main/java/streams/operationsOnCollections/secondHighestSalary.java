@@ -1,4 +1,4 @@
-package streams;
+package streams.operationsOnCollections;
 
 import java.util.Comparator;
 import java.util.List;
