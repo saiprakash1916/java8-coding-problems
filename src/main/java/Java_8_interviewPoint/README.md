@@ -42,6 +42,8 @@
 
 20. Find all even numbers from a given list using Java 8.
 
+21. Find same numbers from both list using java 8
+
 ---
 
 # 🟡 Level 2 — Intermediate
