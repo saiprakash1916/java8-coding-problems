@@ -58,45 +58,47 @@
 
 5. Partition a list of numbers into even and odd numbers using `partitioningBy()`.
 
-6. Find the longest string from a list using Java 8.
+6. Anagram check by using Java 8.
 
-7. Find the shortest string from a list using Java 8.
+7. Find the longest string from a list using Java 8.
 
-8. Find the top 3 largest numbers from a list.
+8. Find the shortest string from a list using Java 8.
 
-9. Find the top 3 smallest numbers from a list.
+9. Find the top 3 largest numbers from a list.
 
-10. Find the sum of squares of all even numbers in a list.
+10. Find the top 3 smallest numbers from a list.
 
-11. Find all numbers that appear exactly once in a list.
+11. Find the sum of squares of all even numbers in a list.
 
-12. Find the intersection of two lists using Java 8.
+12. Find all numbers that appear exactly once in a list.
 
-13. Find the union of two lists using Java 8.
+13. Find the intersection of two lists using Java 8.
 
-14. Find the difference between two lists using Java 8.
+14. Find the union of two lists using Java 8.
 
-15. Merge two lists and remove duplicates using Streams.
+15. Find the difference between two lists using Java 8.
 
-16. Given a list of strings, group them by their length.
+16. Merge two lists and remove duplicates using Streams.
 
-17. Given a list of strings, group them based on their first character.
+17. Given a list of strings, group them by their length.
 
-18. Given a list of employees, group employees by department.
+18. Given a list of strings, group them based on their first character.
 
-19. Given a list of employees, find the highest-paid employee.
+19. Given a list of employees, group employees by department.
 
-20. Given a list of employees, find the employee with the second-highest salary.
+20. Given a list of employees, find the highest-paid employee.
 
-21. Given a list of employees, find the highest salary in each department.
+21. Given a list of employees, find the employee with the second-highest salary.
 
-22. Given a list of employees, find the average salary of each department.
+22. Given a list of employees, find the highest salary in each department.
 
-23. Given a list of employees, count the number of employees in each department.
+23. Given a list of employees, find the average salary of each department.
 
-24. Given a list of employees, sort them by salary.
+24. Given a list of employees, count the number of employees in each department.
 
-25. Given a list of employees, sort them by salary and then by name.
+25. Given a list of employees, sort them by salary.
+
+26. Given a list of employees, sort them by salary and then by name.
 
 ---
 
