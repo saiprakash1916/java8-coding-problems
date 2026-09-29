@@ -8,15 +8,7 @@ import java.util.List;
  */
 public class secondHighestSalaryFromEmployees {
     public static void main(String[] args) {
-        List<Employee> employeesList = List.of(
-                new Employee(101, "John", 50000),
-                new Employee(102, "David", 80000),
-                new Employee(103, "Robert", 30000),
-                new Employee(101, "Alex", 100000),
-                new Employee(104, "Mike", 70000),
-                new Employee(102, "Sam", 80000),
-                new Employee(105, "Tom", 60000)
-        );
+        List<Employee> employeesList = EmployeeData.getEmployees();
 
         Integer result = employeesList.stream().
                 map(Employee::getSalary)
