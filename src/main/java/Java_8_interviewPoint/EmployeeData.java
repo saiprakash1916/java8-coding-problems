@@ -1,4 +1,4 @@
-package Java_8_interviewPoint.service_based_company_questions;
+package Java_8_interviewPoint;
 
 import java.util.Arrays;
 import java.util.List;

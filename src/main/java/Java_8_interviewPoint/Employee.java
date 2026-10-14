@@ -1,4 +1,4 @@
-package Java_8_interviewPoint.service_based_company_questions;
+package Java_8_interviewPoint;
 
 public class Employee {
     private final int id;
