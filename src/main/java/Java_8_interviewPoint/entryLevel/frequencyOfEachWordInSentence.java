@@ -16,7 +16,6 @@ public class frequencyOfEachWordInSentence {
         Map<String, Long> result = Arrays.stream(sentence.split("\\s+"))
                 .collect(Collectors.groupingBy(
                         Function.identity(),
-                        LinkedHashMap::new,
                         Collectors.counting()
                 ));
 
