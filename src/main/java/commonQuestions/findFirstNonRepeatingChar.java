@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class findFirstNonRepeatingChar {
-    static char nonRepeatingChar(String str) {
+    static Character nonRepeatingChar(String str) {
         HashMap<Character, Integer> map = new HashMap<>();
 
         for (char ch : str.toCharArray()) {
@@ -15,10 +15,11 @@ public class findFirstNonRepeatingChar {
                 return entry.getKey();
             }
         }
-        return '_';
+        return null;
     }
 
     public static void main(String[] args) {
-        System.out.println(nonRepeatingChar("aabbcdde"));
+        String str = "aabbcdde";
+        System.out.println(nonRepeatingChar(str));
     }
 }
